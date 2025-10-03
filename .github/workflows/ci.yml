@@ -3,7 +3,7 @@ name: Scheduled Build
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '0 9,12,18 * * *'
 
